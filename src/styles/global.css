@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Aleo');
+
+/*Roboto elements*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Aleo elements*/
+p {
+  font-family: 'Aleo', sans-serif;
+}
+
+/*dark*/
+header * {
+  background-color: #1A323D;
+}
+
+.content {
+  background-color: #FEFBF5;
+}
+/*light*/
