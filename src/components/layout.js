@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import './layout.css'
 import '../styles/global.css'
+import '../styles/about.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -31,6 +32,7 @@ const Layout = ({ children }) => (
           width: `100%`,
           paddingLeft: `5%`,
           fontSize: `12px`,
+          display: `none`
         }}
         >
           © {new Date().getFullYear()}, Midash Ministry, Built with
