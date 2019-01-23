@@ -20,6 +20,23 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+      <footer
+        className="dark-bg"
+        style={{
+          position: `absolute`,
+          bottom: `0`,
+          paddingBottom: `1.45rem`,
+          paddingTop: `1.45rem`,
+          color: `#FEFBF5`,
+          width: `100%`,
+          paddingLeft: `5%`,
+          fontSize: `12px`,
+        }}
+        >
+          © {new Date().getFullYear()}, Midash Ministry, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
         <div
           className="light-bg"
           style={{
@@ -29,11 +46,6 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
         </div>
       </>
     )}

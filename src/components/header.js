@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
         justifyContent: `space-between`,
       }}
     >
-      <h1 style={{ margin: 0 }}>⏣</h1>
+      <h1 style={{ margin: 0, color: `#FEFBF5` }}>⏣</h1>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"

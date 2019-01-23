@@ -34,7 +34,7 @@ const IndexPage = () => (
     <p>MIDASH provides Veterans and Under-Served men/women an opportunity for greater future through IT training, Skills Acquisition, Mentorships and Job placement.</p>
     <h2>Our Vision</h2>
     <p>MIDASH is dedicated to bring life changing experience for veterans and under-served community by restoring hope through life skills empowerment so as to bring reduction in homeless community and elimination of poverty.</p>
-    <div>
+    <div style={{display: `none`}}>
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#FEFBF5`}}>light</p> 
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#1A323D`}}>dark</p>
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#B5DEF0`}}>lightb</p>
