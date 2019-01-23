@@ -12,14 +12,24 @@ const IndexPage = () => (
     <div style={{ maxWidth: `100%`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <p style={{ 
-      fontSize: `22px`, 
-      lineHeight: `34px`,
-      backgroundColor: `#F7D4E3`,
-      padding: `12px`,
-      fontStyle: `italic`,
-      backgroundColor: `#B5DEF0`
-    }}>As the world changes all around us, acquiring technical skills is what brings opportunity and the promise of education is what offers hope. Who will teach and nurture these world changers of tomorrow, these global problem solvers? We will. Together with our education, instructor, training and employment partners we’ve made a commitment to developing the workforce of the future. Join us as we change the world – one student at a time.</p>
+    <div 
+      style={{ 
+        lineHeight: `2em`,
+        marginBottom: `1.45rem`,
+        textAlign: `center`
+      }}
+    >
+      <p 
+        className="hero-text"
+        style={{
+          textAlign: `center`,
+          fontSize: `22px`,
+          fontStyle: `italic`
+        }}
+      >
+          As the world changes all around us, acquiring technical skills is what brings opportunity and the promise of education is what offers hope. Who will teach and nurture these world changers of tomorrow, these global problem solvers? We will. Together with our education, instructor, training and employment partners we’ve made a commitment to developing the workforce of the future. Join us as we change the world – one student at a time.
+        </p>
+    </div>
     <h2>Our Mission</h2>
     <p>MIDASH provides Veterans and Under-Served men/women an opportunity for greater future through IT training, Skills Acquisition, Mentorships and Job placement.</p>
     <h2>Our Vision</h2>
@@ -30,7 +40,7 @@ const IndexPage = () => (
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#B5DEF0`}}>lightb</p>
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#4D96B6`}}>darkb</p>
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#F7D4E3`}}>lightr</p>
-      <p style={{width: `200px`, height: `200px`, backgroundColor: `#E56399`}}>darkr</p>
+      <p style={{width: `200px`, height: `200px`, backgroundColor: `#800000`}}>darkr</p>
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#BFFDEB`}}>lightg</p>
       <p style={{width: `200px`, height: `200px`, backgroundColor: `#69E5C0`}}>darkg</p>
     </div>

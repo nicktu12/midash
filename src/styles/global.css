@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #FEFBF5;
+}
+
 /*Roboto elements*/
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
@@ -26,4 +30,13 @@ p {
 /*light*/
 .light-bg {
   background-color: #FEFBF5;
+}
+
+.hero-text {
+  display: inline;
+  position: relative;
+  padding: 5px 0;
+  color: white;
+  background: maroon;
+  box-shadow: 10px 0 0 maroon, -10px 0 0 maroon;
 }
