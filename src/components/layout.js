@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
+import '../styles/global.css'
+import '../styles/about.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -19,20 +21,33 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+      <footer
+        className="dark-bg"
+        style={{
+          position: `absolute`,
+          bottom: `0`,
+          paddingBottom: `1.45rem`,
+          paddingTop: `1.45rem`,
+          color: `#FEFBF5`,
+          width: `100%`,
+          paddingLeft: `5%`,
+          fontSize: `12px`,
+          display: `none`
+        }}
+        >
+          © {new Date().getFullYear()}, Midash Ministry, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
         <div
+          className="light-bg"
           style={{
             margin: `0 auto`,
             maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
+            padding: `24px`,
           }}
         >
           {children}
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
         </div>
       </>
     )}

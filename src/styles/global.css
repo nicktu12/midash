@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Aleo');
+
+* {
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #FEFBF5;
+}
+
+/*Roboto elements*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #1A323D;
+  line-height: normal;
+}
+
+/*Aleo elements*/
+p {
+  font-family: 'Aleo', sans-serif;
+  color: #1A323D;
+}
+
+/*dark*/
+.dark-bg {
+  background-color: #1A323D;
+}
+
+/*light*/
+.light-bg {
+  background-color: #FEFBF5;
+}
+
+.hero-text {
+  display: inline;
+  position: relative;
+  padding: 5px 0;
+  color: white;
+  background: maroon;
+  box-shadow: 10px 0 0 maroon, -10px 0 0 maroon;
+}
+
+.padding-bottom {
+  padding-bottom: 1.45rem;
+}
+
+

@@ -3,12 +3,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className="dark-bg">
     <div
       style={{
         margin: `0 auto`,
@@ -18,12 +13,12 @@ const Header = ({ siteTitle }) => (
         justifyContent: `space-between`,
       }}
     >
-      <h1 style={{ margin: 0 }}>⏣</h1>
+      <h1 style={{ margin: 0, color: `#FEFBF5` }}>⏣</h1>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#FEFBF5`,
             textDecoration: `none`,
             fontSize: `22px`,
           }}
@@ -35,7 +30,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/about-us"
           style={{
-            color: `white`,
+            color: `#FEFBF5`,
             textDecoration: `none`,
             fontSize: `22px`,
           }}
@@ -47,7 +42,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/programs"
           style={{
-            color: `white`,
+            color: `#FEFBF5`,
             textDecoration: `none`,
             fontSize: `22px`,
           }}
@@ -59,7 +54,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/contact"
           style={{
-            color: `white`,
+            color: `#FEFBF5`,
             textDecoration: `none`,
             fontSize: `22px`,
           }}
@@ -71,7 +66,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/donate"
           style={{
-            color: `white`,
+            color: `#FEFBF5`,
             textDecoration: `none`,
             fontSize: `22px`,
           }}
@@ -80,7 +75,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </div>
+  </header>
 )
 
 Header.propTypes = {
