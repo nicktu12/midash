@@ -23,3 +23,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.team-section article {
+  display: flex;
+  max-width: 65%;
+}
+ 
+.team-section article img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
