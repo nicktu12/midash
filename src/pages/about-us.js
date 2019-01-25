@@ -43,8 +43,37 @@ const AboutUs = () => (
         <p>MIDASH is dedicated to bring life changing experience for veterans and under-served community by restoring hope through life skills empowerment so as to bring reduction in homeless community and elimination of poverty.</p>
       </article>
     </section>
-    <h2>The Team</h2>
-    <em style={{ backgroundColor: `pink` }}>team images go here</em>
+    <h2 style={{ textAlign: `center` }}>The Team</h2>
+    <section className="team-section">
+      <article>
+        <img src="https://picsum.photos/200/300" alt=""/>
+        <div>
+          <h4>Freddie Mercury</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum, libero vitae pharetra malesuada, eros elit faucibus arcu, non maximus lacus sapien vel velit. Nulla sit amet velit et ligula cursus molestie et quis mauris. Praesent venenatis, urna vitae laoreet venenatis, elit odio sodales est, sit amet ornare magna lectus ac mauris. </p>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/200/300" alt=""/>
+        <div>
+          <h4>Brian May</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum, libero vitae pharetra malesuada, eros elit faucibus arcu, non maximus lacus sapien vel velit. Nulla sit amet velit et ligula cursus molestie et quis mauris. Praesent venenatis, urna vitae laoreet venenatis, elit odio sodales est, sit amet ornare magna lectus ac mauris.</p>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/200/300" alt=""/>
+        <div>
+          <h4>Jon Deacon</h4>
+          <p>MLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum, libero vitae pharetra malesuada, eros elit faucibus arcu, non maximus lacus sapien vel velit. Nulla sit amet velit et ligula cursus molestie et quis mauris. Praesent venenatis, urna vitae laoreet venenatis, elit odio sodales est, sit amet ornare magna lectus ac mauris.</p>
+        </div>
+      </article>
+      <article>
+        <img src="https://picsum.photos/200/300" alt=""/>
+        <div>
+          <h4>Roger Taylor</h4>
+          <p>MLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum, libero vitae pharetra malesuada, eros elit faucibus arcu, non maximus lacus sapien vel velit. Nulla sit amet velit et ligula cursus molestie et quis mauris. Praesent venenatis, urna vitae laoreet venenatis, elit odio sodales est, sit amet ornare magna lectus ac mauris.</p>
+        </div>
+      </article>
+    </section>
   </Layout>
 )
 

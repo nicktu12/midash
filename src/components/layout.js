@@ -6,6 +6,7 @@ import Header from './header'
 import './layout.css'
 import '../styles/global.css'
 import '../styles/about.css'
+import '../styles/programs.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
