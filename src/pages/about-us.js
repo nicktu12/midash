@@ -44,7 +44,36 @@ const AboutUs = () => (
       </article>
     </section>
     <h2>The Team</h2>
-    <em style={{ backgroundColor: `pink` }}>team images go here</em>
+    <section className="team-section">
+      <article>
+        <img src="" alt=""/>
+        <div>
+          <h4>Name</h4>
+          <p>My bio goes here...</p>
+        </div>
+      </article>
+      <article>
+        <img src="" alt=""/>
+        <div>
+          <h4>Name</h4>
+          <p>My bio goes here...</p>
+        </div>
+      </article>
+      <article>
+        <img src="" alt=""/>
+        <div>
+          <h4>Name</h4>
+          <p>My bio goes here...</p>
+        </div>
+      </article>
+      <article>
+        <img src="" alt=""/>
+        <div>
+          <h4>Name</h4>
+          <p>My bio goes here...</p>
+        </div>
+      </article>
+    </section>
   </Layout>
 )
 

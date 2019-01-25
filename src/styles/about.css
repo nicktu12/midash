@@ -17,3 +17,9 @@
   text-align: center;
   margin-bottom: 0;
 }
+
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
