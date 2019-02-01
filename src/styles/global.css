@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Aleo');
 
+/* https://coolors.co/1b2726-3c5148-c1edcc-f46036-d5ddde */
+
+:root {
+  --dark-main: #1B2726;
+  --dark-accent: #3C5148;
+  --pop-main: #F46036;
+  --light-main: #D5DDDE; 
+}
+
 * {
   line-height: normal;
   padding: 0;

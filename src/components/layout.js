@@ -20,37 +20,36 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-      <footer
-        className="dark-bg"
+      <div>
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <div
+        className="light-bg"
         style={{
-          position: `absolute`,
-          bottom: `0`,
-          paddingBottom: `1.45rem`,
-          paddingTop: `1.45rem`,
-          color: `#FEFBF5`,
-          width: `100%`,
-          paddingLeft: `5%`,
-          fontSize: `12px`,
-          display: `none`
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `24px`,
+          marginTop: `70px`
         }}
-        >
-          © {new Date().getFullYear()}, Midash Ministry, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-        <div
-          className="light-bg"
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `24px`,
-          }}
-        >
-          {children}
-        </div>
-      </>
+      >
+        {children}
+      </div>
+      <footer
+      className="dark-bg"
+      style={{
+        color: `#FEFBF5`,
+        width: `100%`,
+        paddingLeft: `5%`,
+        fontSize: `12px`,
+        height: `70px`,
+        display: `flex`,
+        alignItems: `center`
+      }}
+      >
+        © {new Date().getFullYear()}, Midash Ministry, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
+      </div>
     )}
   />
 )
